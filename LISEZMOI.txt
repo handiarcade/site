@@ -1,0 +1,11 @@
+Site Handi'Arcade - mise en ligne
+
+1. Envoyez TOUT le contenu de ce dossier (index.html, mentions-legales.html, style.css, script.js, dossier img)
+   à la racine de votre hébergement (souvent "public_html" ou "www"), avec le gestionnaire de fichiers
+   de l'hébergeur ou un logiciel FTP comme FileZilla.
+2. Ouvrez mentions-legales.html et remplacez la ligne [Nom de l'hébergeur]... par les coordonnées
+   de votre hébergeur (obligatoire).
+3. Activez le HTTPS (certificat SSL gratuit) dans l'espace client de l'hébergeur.
+
+Pour modifier un texte : ouvrez index.html avec un éditeur de texte (Bloc-notes, Notepad++),
+changez le texte entre les balises, enregistrez, puis renvoyez le fichier.

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Handi'Arcade, des manettes pour que tout le monde joue</title>
+<meta name="description" content="Handi'Arcade est une association reconnue d'intérêt général qui conçoit des manettes de jeu sur mesure pour les personnes en situation de handicap moteur.">
+<meta property="og:title" content="Handi'Arcade, des manettes pour que tout le monde joue">
+<meta property="og:description" content="Association qui conçoit des manettes de jeu sur mesure pour les personnes en situation de handicap moteur.">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="#" aria-label="Handi'Arcade, accueil">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" class="logo-ring"/><circle cx="20" cy="20" r="11" class="logo-btn"/></svg>
+      <span>Handi'Arcade</span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" aria-label="Navigation principale">
+      <a href="#creations">Nos créations</a>
+      <a href="#eole">Eole</a>
+      <a href="#etablissements">Établissements</a>
+      <a href="#soutenir">Nous soutenir</a>
+      <a href="#contact">Contact</a>
+      <button class="size-btn" type="button" aria-pressed="false" title="Agrandir le texte">A<span>A</span><span class="sr">Agrandir le texte</span></button>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <h1>Tout le monde peut jouer.</h1>
+      <p class="lead">Handi'Arcade est une association qui conçoit et fabrique des manettes de jeu sur mesure pour les personnes en situation de handicap moteur. On part de ce que la personne peut faire, et on construit la manette autour.</p>
+      <div class="actions">
+        <a class="btn btn-main" href="#contact">Demander une manette adaptée</a>
+        <a class="btn btn-ghost" href="#soutenir">Faire un don</a>
+      </div>
+    </div>
+
+    <div class="pad" aria-label="Choisissez une façon de jouer">
+      <p class="pad-q" id="pad-q">Je joue avec…</p>
+      <div class="pad-grid" role="group" aria-labelledby="pad-q">
+        <button class="arc c-red" aria-pressed="true" data-k="bouche"><span class="cap"></span><span class="lbl">la bouche</span></button>
+        <button class="arc c-yellow" aria-pressed="false" data-k="menton"><span class="cap"></span><span class="lbl">le menton</span></button>
+        <button class="arc c-green" aria-pressed="false" data-k="main"><span class="cap"></span><span class="lbl">une main</span></button>
+        <button class="arc c-cyan" aria-pressed="false" data-k="doigt"><span class="cap"></span><span class="lbl">un doigt</span></button>
+        <button class="arc c-blue" aria-pressed="false" data-k="pied"><span class="cap"></span><span class="lbl">le pied</span></button>
+        <button class="arc c-pink" aria-pressed="false" data-k="fauteuil"><span class="cap"></span><span class="lbl">mon fauteuil</span></button>
+      </div>
+      <div class="pad-answer" aria-live="polite">
+        <p id="pad-text">Avec Eole, notre manette au souffle : souffler et aspirer dans des tubes, doucement ou fort, remplace les boutons.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="steps" aria-labelledby="t-steps">
+  <div class="wrap">
+    <h2 id="t-steps">Comment on travaille</h2>
+    <ol class="step-list">
+      <li><h3>On se rencontre</h3><p>Avec la personne, sa famille ou son ergothérapeute. On regarde les gestes possibles, la position, les jeux qui lui font envie.</p></li>
+      <li><h3>On conçoit</h3><p>On choisit les boutons, les capteurs et la forme. Les pièces sont dessinées et imprimées en 3D pour cette personne.</p></li>
+      <li><h3>On règle ensemble</h3><p>On installe la manette, on associe chaque geste à une action du jeu, et on ajuste jusqu'à ce que ce soit confortable.</p></li>
+      <li><h3>On suit</h3><p>Les besoins changent. On revient modifier la manette, la position ou les réglages quand il le faut.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="creations" class="creations" aria-labelledby="t-crea">
+  <div class="wrap">
+    <h2 id="t-crea">Nos créations</h2>
+    <div class="crea-grid">
+      <article class="crea">
+        <h3>Manettes arcade sur mesure</h3>
+        <p>Gros boutons, contacteurs à brancher, boîtiers imprimés en 3D : chaque bouton se place là où la personne peut l'atteindre. Un logiciel permet de choisir ce que fait chaque bouton.</p>
+      </article>
+      <article class="crea">
+        <h3>Jouer sur console</h3>
+        <p>Nos montages se branchent sur console, ordinateur ou tablette comme une manette ordinaire. Ils peuvent aussi piloter les manettes adaptatives du commerce que la personne possède déjà.</p>
+      </article>
+      <article class="crea">
+        <h3>Le joystick du fauteuil</h3>
+        <p>Un projet en cours : utiliser le joystick d'un fauteuil roulant électrique comme manette de jeu, sans rien ajouter devant la personne.</p>
+        <p class="tag">En développement</p>
+      </article>
+      <article class="crea">
+        <h3>Communiquer avec des pictogrammes</h3>
+        <p>Un logiciel gratuit de communication alternative : les ergothérapeutes préparent des tableaux de pictogrammes sur ordinateur et les envoient sur la tablette de la personne.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="eole" class="eole" aria-labelledby="t-eole">
+  <div class="wrap eole-in">
+    <figure class="eole-fig">
+      <img src="img/eole-dessin.png" alt="Dessin de la manette Eole : un boîtier avec un joystick au centre et quatre tubes de souffle aux extrémités." width="1400" height="1286" loading="lazy">
+    </figure>
+    <div class="eole-text">
+      <h2 id="t-eole">Eole, la manette au souffle</h2>
+      <p class="lead">Eole se commande uniquement avec la bouche. Elle se fixe sur un bras articulé, devant la personne, et se branche en USB comme une manette ordinaire.</p>
+      <ul class="facts">
+        <li><strong>Quatre tubes, seize commandes.</strong> Chaque tube reconnaît le souffle et l'aspiration, doux ou forts.</li>
+        <li><strong>Pas de fausse action.</strong> Après un souffle fort, le souffle doux ne se déclenche pas quand l'air redescend.</li>
+        <li><strong>Un joystick pour les lèvres</strong> ou le menton, avec son bouton.</li>
+        <li><strong>Calibrage automatique</strong> au branchement et pendant le jeu.</li>
+        <li><strong>Réglage sur tablette</strong> : on souffle, puis on touche le bouton voulu sur l'image de la manette.</li>
+        <li><strong>Filtres d'hygiène</strong> qui se changent à la main, sous des caches aimantés.</li>
+      </ul>
+      <p class="note">Prototype. Demande de brevet déposée à l'INPI. Candidate au Concours Lépine 2027.</p>
+    </div>
+  </div>
+</section>
+
+<section id="etablissements" class="etab" aria-labelledby="t-etab">
+  <div class="wrap etab-in">
+    <h2 id="t-etab">Pour les établissements médico-sociaux</h2>
+    <div class="etab-text">
+      <p>Nous travaillons avec des établissements médico-sociaux en France. IME, IEM, MAS, FAM ou accueil de jour : le jeu vidéo peut devenir un temps de loisir partagé, un support de rééducation ou un moyen de garder le lien avec les autres jeunes.</p>
+      <p>Racontez-nous vos besoins : le nombre de personnes, les situations de handicap, le matériel déjà présent. On construit ensemble une proposition adaptée à votre structure.</p>
+      <a class="btn btn-main" href="mailto:handiarcade@gmail.com?subject=Etablissement%20%E2%80%93%20demande%20d'information">Écrire à l'association</a>
+    </div>
+  </div>
+</section>
+
+<section id="soutenir" class="soutenir" aria-labelledby="t-don">
+  <div class="wrap don-in">
+    <div>
+      <h2 id="t-don">Nous soutenir</h2>
+      <p class="lead">Chaque manette est conçue et fabriquée par l'association. Vos dons paient les capteurs, les cartes électroniques et le filament.</p>
+      <p>Handi'Arcade est reconnue d'intérêt général. Après votre don, vous recevez automatiquement un reçu fiscal : en tant que particulier, vous pouvez déduire 66 % du montant de votre impôt sur le revenu, dans la limite de 20 % de votre revenu imposable.</p>
+      <a class="btn btn-main" href="https://www.helloasso.com/associations/handi-arcade/formulaires/4" target="_blank" rel="noopener">Faire un don sur HelloAsso</a>
+    </div>
+    <div class="calc" aria-labelledby="t-calc">
+      <h3 id="t-calc">Ce que votre don vous coûte</h3>
+      <label for="don">Montant du don</label>
+      <div class="calc-row">
+        <input id="don" type="number" inputmode="numeric" min="1" step="1" value="50">
+        <span>€</span>
+      </div>
+      <p class="calc-out" aria-live="polite">Après réduction d'impôt : <strong id="cout">17 €</strong></p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact" aria-labelledby="t-contact">
+  <div class="wrap contact-in">
+    <h2 id="t-contact">Contact</h2>
+    <div class="contact-cols">
+      <div>
+        <p class="lead">Pour une manette, un projet ou un partenariat, écrivez-nous.</p>
+        <a class="mail" href="mailto:handiarcade@gmail.com">handiarcade@gmail.com</a>
+      </div>
+      <address>
+        Association Handi'Arcade<br>
+        4 rue du Capitaine<br>
+        62170 Marles-sur-Canche
+      </address>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p>Handi'Arcade, association loi 1901 reconnue d'intérêt général<br>RNA W624007241, SIRET 894 831 726 00019</p>
+    <p><a href="mentions-legales.html">Mentions légales</a></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
